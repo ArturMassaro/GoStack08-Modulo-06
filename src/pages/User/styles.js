@@ -75,3 +75,8 @@ export const Author = styled.Text`
   color: #666;
   margin-top: 2px;
 `;
+
+export const UserName = styled.Text`
+  font-size: 20px;
+  color: #333;
+`;

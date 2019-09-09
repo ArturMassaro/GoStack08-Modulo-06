@@ -1,3 +1,4 @@
+/* eslint-disable react/static-property-placement */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View } from 'react-native';
@@ -27,9 +28,10 @@ export default class User extends Component {
       getParam: PropTypes.func,
     }).isRequired,
   };
-
+  const [x, setx] = useState([]);
+  const [y, sety] = useState([]);
   state = {
-    stars: [],
+    stars: []
   };
 
   async componentDidMount() {
